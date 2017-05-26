@@ -1,8 +1,11 @@
 server:
   port: 8801
+
 eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://tcs-poc-ms-eurekaserver-us-i2.us-east-1.elasticbeanstalk.com/
   server:
     enableSelfPreservation: false
