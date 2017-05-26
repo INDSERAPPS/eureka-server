@@ -5,7 +5,7 @@
 
 	<groupId>tcs.poc.ms</groupId>
 	<artifactId>eurekasserver</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>tcs-poc-ms-eurekaserver</name>
