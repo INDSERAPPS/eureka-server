@@ -3,9 +3,9 @@ server:
 
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
-      defaultZone: http://tcs-poc-ms-eurekaserver-us-i2.us-east-1.elasticbeanstalk.com/
+      defaultZone: http://tcs-poc-ms-eurekaserver-us-i2.us-east-1.elasticbeanstalk.com/eureka/
   server:
-    enableSelfPreservation: false
+    enableSelfPreservation: true
