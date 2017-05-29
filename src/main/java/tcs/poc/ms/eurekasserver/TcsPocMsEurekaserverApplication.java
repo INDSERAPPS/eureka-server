@@ -9,8 +9,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @EnableEurekaServer
 @EnableDiscoveryClient
 public class TcsPocMsEurekaserverApplication {
-
+	 
 	public static void main(String[] args) {
 		SpringApplication.run(TcsPocMsEurekaserverApplication.class, args);
 	}
+	
 }
