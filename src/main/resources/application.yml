@@ -1,15 +1,13 @@
 server:
   port: 8801
 eureka:
-  dashboard:
-    path: /dashboard
   instance:
-    hostname: tcs-poc-ms-eurekaserver-us-i2
-    appname: tcs-poc-ms-eurekaserver-us-i2
+    hostname: tcs-poc-ms-eurekaserver-ca-i1
+    appname: tcs-poc-ms-eurekaserver-ca-i1
     leaseRenewalIntervalInSeconds: 3
   client:
     serviceUrl:
-      defaultZone: http://tcs-poc-ms-eurekaserver-ca-i1.ca-central-1.elasticbeanstalk.com/eureka/
+      defaultZone: http://tcs-poc-ms-eurekaserver-us-i2.us-east-1.elasticbeanstalk.com/eureka/
     registerWithEureka: true
     fetchRegistry: true
   server:
